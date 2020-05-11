@@ -9,24 +9,30 @@ a {
   color: #08c;
 }
 
-h1,
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 50px;
+    font-weight: normal;
+    line-height: 50px;
+    max-width: 850px;
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 50px;
+}
 h2 {
-  font-family:  Geneva, Verdana, sans-serif;
-  color: white;
-  font-size: 2.5em;
-  font-weight: lighter;
+    font-family: 'Montserrat', sans-serif; 
+    color: white;
+     font-size: 1.7em;
+  font-weight: normal;
   line-height: 50px;
-  letter-spacing: 5px;
-  max-width: 850px;
+  /* letter-spacing: 5px; */
+  max-width: 800px;
   text-align: center;
   padding-top: 40px;
-  opacity: 0.8;
+  /* opacity: 0.8; */
 }
 
-h2 {
-  font-size: 2em;
-  letter-spacing: 0;
-}
 
 main {
   max-width: 1440px;
@@ -65,7 +71,7 @@ nav {
   box-shadow: 1px 0  #555;
   font-size: 12px;
   border-radius: 4px;
-  margin-top: 60px;
+  margin-top: 30px
 }
 
 nav a {
