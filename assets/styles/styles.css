@@ -11,10 +11,10 @@ a {
 
 h1,
 h2 {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:  Geneva, Verdana, sans-serif;
   color: white;
   font-size: 2.5em;
-  font-weight: 1;
+  font-weight: lighter;
   line-height: 50px;
   letter-spacing: 5px;
   max-width: 850px;
