@@ -76,8 +76,6 @@ nav a {
   font-weight: bolder;
   text-shadow: 0 -1px  #444;
   width: 100%;
-
-  /* width: 102.6px; */
   text-align: center;
   padding: 12px;
 }
@@ -112,7 +110,7 @@ nav a:first-child {
 
 nav a:hover {
   text-decoration: none;
-  border-radius: 4px;
+
 }
 
 .right-ft a:last-child {
@@ -126,8 +124,8 @@ nav a:hover {
   background-size: 800px;
 }
 
-nav a:first-child:hover {
-  background-color: red;
+nav a:hover {
+  background-color: rgba(20, 20, 20, 0.411);
 }
 
 input[type=search] {
