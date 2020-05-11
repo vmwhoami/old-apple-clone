@@ -1,5 +1,17 @@
 @import url("reset.css");
 
+body{
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+} 
+
+a {
+    text-decoration: none;
+    color: #08c;
+   
+}
+a:hover{
+    text-decoration: underline;
+}
 main{
     max-width: 1440px;
     display: grid;
@@ -14,7 +26,7 @@ main{
     grid-column: 1/5;
     width: 100%;
     min-height: 538px;
-    background: url("https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg");
+    background: url("/assets/images/your_verse_hero.jpg");
     background-position: center -778px;
     object-fit: cover;
     object-fit: contain;
@@ -25,11 +37,41 @@ main{
 nav{
     display: flex;
     flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color: #555;
+    background: linear-gradient(#777, #666, #555, #666, #777);
+    align-items: center;
     width: 980px;
     height: 36px;
-    background: #707070;
+   
+    font-size: 12px;
     border-radius: 4px;
     margin-top: 60px;
+}
+nav a:first-child{
+    background: url("/assets/images/applewesitenav.svg") 0 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    border-right: 1px solid rgb(77, 77, 77);
+    box-sizing: border-box;
+    font-weight: 500;
+    width: 102.6px;
+    text-align: center;
+}
+nav a:hover{
+    text-decoration: none;
+}
+nav input {
+    /* height: 20px; */
+    background: linear-gradient(#666, #555, #666)
+    width: 100px;
+    border-radius: 20px;
+    height: 19px;
+    box-sizing: border-box;
+    padding: 2px 18px 1px 22px;
 }
 
 .iphone5s{
@@ -64,5 +106,23 @@ nav{
 footer{
     grid-column: 1/5;
     height: 90px;
-    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+
+}
+p {
+    padding-top: 15px;
+    padding-right: 15px;
+    font-family:  Helvetica, Arial, Verdana, sans-serif;
+    color: #6e6e6e;
+    font-size: 10px;
+    line-height: 1.2;
+}
+section > a{
+    padding-top: 15px;
+    font-size: 10px;
+    line-height: 1.2;
+    padding-left: 6px;
+    margin-left: 6px;
 }
