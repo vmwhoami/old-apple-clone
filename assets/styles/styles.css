@@ -104,9 +104,11 @@ a:hover {
 }
 
 nav a:first-child {
-  height: 35px;
   background: url("/assets/images/applewesitenav.svg") 50% 0 no-repeat;
 }
+nav a:first-child:hover {
+ border-radius: 4px 0px 0px 4px;
+} 
 
 nav a:hover {
   text-decoration: none;
@@ -125,7 +127,7 @@ nav a:hover {
 }
 
 nav a:hover {
-  background-color: rgba(20, 20, 20, 0.411);
+  background-color: rgba(29, 29, 29, 0.548);
 }
 
 input[type=search] {
@@ -144,12 +146,14 @@ input[type=search] {
   padding: 0 5px;
   box-shadow: inset 0 1px 1px rgba(65, 65, 65, 0.758);
   margin: 0 5px;
+  transition:  .3s ease-out;
 }
 
 input[type=search]:focus,
 input[type=search]:active {
   background: white;
-  width: 300px;
+  width: 250px;
+  transition:  1s ease-in-out;
 }
 
 h3 {
