@@ -118,10 +118,15 @@ nav a:first-child {
 
 .right-ft a:last-child {
   border-right: none;
-  line-height: 20px;
-  width: 20px;
+  position: relative;
 }
 
+.right-ft a:last-child img{
+  position: absolute;
+  z-index: 1;
+  top: -2px;
+  left: 7px;
+}
 .navbar-main > a:hover {
   background: url("https://web.archive.org/web/20140226220920im_/http://images.apple.com/home/images/cta_your_verse_27pt_2x.png");
   background-repeat: no-repeat;
