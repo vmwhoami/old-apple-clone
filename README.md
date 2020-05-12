@@ -1,13 +1,14 @@
-# Html Forms
+# Old youtube clone
 
-![Image description](https://raw.githubusercontent.com/vmwhoami/old-apple-clone/working-branch/assets/images/Screenshot.png)
+![Image description](https://raw.githubusercontent.com/vmwhoami/old-apple-clone/working-branch/images/Screenshot.png)
 
 # Built with #
  - HTML5 
   - CSS3 
 
 # Live Demo #
-[live demo](https://elegant-tesla-d7040e.netlify.app/)
+[live demo netlify](https://elegant-tesla-d7040e.netlify.app/)
+[live demo githack](https://raw.githack.com/vmwhoami/old-apple-clone/working-branch/index.html)
 
 
  # Prerequisites #
