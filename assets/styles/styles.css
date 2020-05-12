@@ -129,6 +129,7 @@ nav a:first-child {
 
 nav a:first-child:hover {
   border-radius: 4px 0 0 4px;
+  background-color: rgba(29, 29, 29, 0.548);
 }
 
 input[type=search] {
