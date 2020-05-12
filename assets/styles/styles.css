@@ -9,30 +9,32 @@ a {
   color: #08c;
 }
 
-h1{
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    font-size: 50px;
-    font-weight: normal;
-    line-height: 50px;
-    max-width: 850px;
-    text-align: center;
-    margin-top: 40px;
-    padding-top: 50px;
-}
-h2 {
-    font-family: 'Montserrat', sans-serif; 
-    color: white;
-     font-size: 1.7em;
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 50px;
   font-weight: normal;
   line-height: 50px;
+  max-width: 850px;
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 50px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 1.7em;
+  font-weight: normal;
+  line-height: 50px;
+
   /* letter-spacing: 5px; */
   max-width: 800px;
   text-align: center;
   padding-top: 40px;
+
   /* opacity: 0.8; */
 }
-
 
 main {
   max-width: 1440px;
@@ -71,7 +73,7 @@ nav {
   box-shadow: 1px 0  #555;
   font-size: 12px;
   border-radius: 4px;
-  margin-top: 30px
+  margin-top: 30px;
 }
 
 nav a {
@@ -109,16 +111,13 @@ a:hover {
   text-decoration: underline;
 }
 
+nav a:hover {
+  background-color: rgba(29, 29, 29, 0.548);
+  text-decoration: none;
+}
+
 nav a:first-child {
   background: url("/assets/images/applewesitenav.svg") 50% 0 no-repeat;
-}
-nav a:first-child:hover {
- border-radius: 4px 0px 0px 4px;
-} 
-
-nav a:hover {
-  text-decoration: none;
-
 }
 
 .right-ft a:last-child {
@@ -132,8 +131,8 @@ nav a:hover {
   background-size: 800px;
 }
 
-nav a:hover {
-  background-color: rgba(29, 29, 29, 0.548);
+nav a:first-child:hover {
+  border-radius: 4px 0 0 4px;
 }
 
 input[type=search] {
@@ -152,14 +151,14 @@ input[type=search] {
   padding: 0 5px;
   box-shadow: inset 0 1px 1px rgba(65, 65, 65, 0.758);
   margin: 0 5px;
-  transition:  .3s ease-out;
+  transition: 0.3s ease-out;
 }
 
 input[type=search]:focus,
 input[type=search]:active {
   background: white;
   width: 250px;
-  transition:  1s ease-in-out;
+  transition: 1s ease-in-out;
 }
 
 h3 {
